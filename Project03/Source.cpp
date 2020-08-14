@@ -11,10 +11,15 @@ void minmax(int n)
 	for (a = 0; a < n; a++)
 	{
 		if (num[a] > max)
+		{
 			max = num[a];
+		}
 
 		if (num[a] < min)
+		{
 			min = num[a];
+		}
+			
 	}
 	printf("%d\n", min);
 	printf("%d", max);
